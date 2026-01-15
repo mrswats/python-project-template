@@ -3,6 +3,8 @@ name: Build Docker Image
 
 on:
   push:
+    paths:
+      - Dockerfile
     branches:
       - "main"
 
