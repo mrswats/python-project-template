@@ -17,6 +17,7 @@ repos:
     rev: 25.12.0
     hooks:
       - id: black
+        args: [-l, "99", -t, py314]
   - repo: https://github.com/asottile/reorder_python_imports
     rev: v3.16.0
     hooks:
