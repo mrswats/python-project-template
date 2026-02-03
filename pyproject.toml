@@ -30,7 +30,10 @@ recursive = true
 [tool.mypy]
 files = "."
 ignore_missing_imports = true
-exclude = []
+strict = true
+exclude = [
+    "tests/",
+]
 
 [tool.coverage.run]
 plugins = ["covdefaults"]
